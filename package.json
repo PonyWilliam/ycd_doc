@@ -7,7 +7,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "export-pdf": "press-export-pdf export ./docs"
+    "docs:export": "press-export-pdf export ./docs --debug -c ./docs/.vuepress/vuepress-pdf.config.ts"
   },
   "devDependencies": {
     "@condorhero/vuepress-plugin-export-pdf-v2": "^3.0.2",

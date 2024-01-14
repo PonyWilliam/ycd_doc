@@ -57,7 +57,7 @@
 <p>项目库可以很好的解决我们一些特定项目问题，如果有更好的建议，我也会在后续继续针对这方面做更多的开发。</p>
 <h2 id="工具中心的使用" tabindex="-1"><a class="header-anchor" href="#工具中心的使用" aria-hidden="true">#</a> 工具中心的使用</h2>
 <p>工具中心下包含自助打印、往来指标生成模块，上面所说的银行导入功能在未来将会放入其他分类下。<br>
-自助打印功能：上传一个文件，运行了对应服务端且连接了打印机的电脑会自动进行打印,对自助打印功能感兴趣的朋友可以阅读下：<a href="https://github.com/PonyWilliam/printControl" target="_blank" rel="noopener noreferrer">自助打印开源及说明<ExternalLinkIcon/></a></p>
+自助打印功能：上传一个文件，运行了对应服务端且连接了打印机的电脑会自动进行打印,对自助打印功能感兴趣的朋友可以阅读下：<a href="https://github.com/PonyWilliam/printControl" target="_blank" rel="noopener noreferrer">自助打印开源及说明</a></p>
 <p>往来报告生成模块需要先在国库群中下载国库杨蕾主任提供的往来账，然后上传到往来报告模块当中并且输入好自己的单位名称以及落款单位，落款单位为右下角落款的单位，除财政所外，其他单位一般保持一致，以杨村甸为例，杨村甸乡人民政府一般为检索的抬头，杨村甸乡财政所一般为落款单位，日期选择文件名称的日期即可。</p>
 <center> <img src="/images/生成往来报告.png" alt="生成往来报告"></center>
 <p>点击下一步后，如果没有错误，会看到生成成功的图片，下载即可。</p>

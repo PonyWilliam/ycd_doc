@@ -1,26 +1,5 @@
-<template><div><p><em>你好， {{ msg }}</em></p>
-<RedDiv>
-<p><em>当前计数为： {{ count }}</em></p>
-</RedDiv>
-<p><button @click="count++">点我！</button></p>
-</div></template>
+<template><div><h2 id="视频教程" tabindex="-1"><a class="header-anchor" href="#视频教程" aria-hidden="true">#</a> 视频教程</h2>
+<p>注：默认情况视频可能偏小，可点击全屏播放观看</p>
+<iframe id="dogePlayerFrame" src="https://player.dogecloud.com/web/player.html?vcode=5da421bb6dfca516&userId=8444&autoPlay=false&inFrame=true&vtype=10" allowfullscreen="true" msallowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" allowtransparency="true" scrolling="no" width="480px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerPolicy="unsafe-url"></iframe></div></template>
 
 
-<script setup>
-import { h, ref } from 'vue'
-
-const RedDiv = (_, ctx) => h(
-  'div',
-  {
-    class: 'red-div',
-  },
-  ctx.slots.default()
-)
-const msg = 'Markdown 中的 Vue'
-const count = ref(0)
-</script>
-<style>
-.red-div {
-  color: red;
-}
-</style>
